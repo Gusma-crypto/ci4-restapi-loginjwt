@@ -1,3 +1,9 @@
+# LOGIN JWT
+
+### References
+
+[Tutorial](https://medium.com/geekculture/codeigniter-4-tutorial-restful-api-jwt-authentication-d5963d797ec4#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjFmNDBmMGE4ZWYzZDg4MDk3OGRjODJmMjVjM2VjMzE3YzZhNWI3ODEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTQ5MDY5MTc5Mjc2Njc2MTIxMjkiLCJlbWFpbCI6ImFndXNzdWxpc3Rpb25vYTBAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTcwNDg1NzEyOCwibmFtZSI6Ikd1emVsaXMiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVdvY1NnRm0yZVdNcElsX3VXSEI3SjhMUjQ5dGpTWDlLWjUtX2pBWmJ5PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ikd1emVsaXMiLCJsb2NhbGUiOiJlbiIsImlhdCI6MTcwNDg1NzQyOCwiZXhwIjoxNzA0ODYxMDI4LCJqdGkiOiJmMGRkZTBkYjQ1Y2ZjM2ZmYTcxOTI4YWVlZjZhN2IyMDcyOTE5Y2U5In0.MEEsXEw3x3JgyigFwbFhn6zbKu9aM755O-gqgcgoub1vrTQrDRVmbJJNkZbwkENTLZ-8wBOaMXTWsWWwxtgjhH50yHbsPXJ6UVNaLxa4uieboVfzfmRfvHFywlAy0qx103G5y0HaZkci7VdUMeXX1eO-1xO-xq2Kk6VF8_ICUQfEzc3QjSqL9oxLnKzqOnd73_rm_UJJpUDxMr7iWngYyh15zV5Ob4QzpR9tUZaeBQ93_OWIlwsbt9ydJE3Qqah2y-tcdWbwtGXGUsMRpylpTVHCW4IBjsFlpWSKNquxND_mYnmv5BTPZ4WrckALg71C1LNxAuUSXozxkDtY2E6cSA)
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
@@ -30,11 +36,11 @@ and any database settings.
 
 ## Important Change with index.php
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
+`index.php` is no longer in the root of the project! It has been moved inside the _public_ folder,
 for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
+This means that you should configure your web server to "point" to your project's _public_ folder, and
+not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter _public/..._, as the rest of your logic and the
 framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
